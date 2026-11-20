@@ -74,9 +74,10 @@ html[data-lang="zh"] .en { display: none; }
   display: flex; gap: 2rem; align-items: center;
   padding: 3.5rem 0 2rem;
 }
-.hero img {
-  width: 9.5rem; height: 9.5rem; border-radius: 50%; object-fit: cover;
-  border: 1px solid var(--line); flex: none;
+.hero .avatar {
+  width: 9.5rem; height: 9.5rem; border-radius: 50%; flex: none;
+  object-fit: cover; object-position: center 20%;
+  border: 1px solid var(--line); background: var(--chip);
 }
 .hero h1 { margin: 0; font-size: 2rem; line-height: 1.25; letter-spacing: -0.01em; }
 .hero .sub { margin: 0.25rem 0 0.9rem; color: var(--muted); }
