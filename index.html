@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daohai Yu</title>
+  <meta name="description" content="Daohai Yu, graduate student at Xiamen University. Research on efficient long-context large language models and multimodal large models.">
+  <meta property="og:title" content="Daohai Yu">
+  <meta property="og:description" content="Graduate student at Xiamen University. Efficient long-context LLMs and multimodal large models.">
+  <link rel="icon" href="assets/profile.png">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+      var l = localStorage.getItem("lang") ||
+        (/^zh/i.test(navigator.language || "") ? "zh" : "en");
+      document.documentElement.setAttribute("data-lang", l);
+      document.documentElement.lang = l === "zh" ? "zh-CN" : "en";
+    })();
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#top"><span class="en">Daohai Yu</span><span class="zh">余道海</span></a>
+      <nav>
+        <a href="#about"><span class="en">About</span><span class="zh">简介</span></a>
+        <a href="#publications"><span class="en">Publications</span><span class="zh">论文</span></a>
+        <a href="#contact"><span class="en">Contact</span><span class="zh">联系</span></a>
+        <button id="lang" type="button" aria-label="Switch language"><span class="en">中</span><span class="zh">EN</span></button>
+        <button id="theme" type="button" aria-label="Toggle dark mode">&#9680;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+    <div class="hero">
+      <img src="assets/profile.png" alt="Daohai Yu">
+      <div>
+        <h1><span class="en">Daohai Yu</span><span class="zh">余道海</span></h1>
+        <p class="sub"><span class="en">Graduate student, School of Information Science and Technology, Xiamen University</span><span class="zh">厦门大学 信息科学与技术学院 硕士研究生</span></p>
+        <div class="links">
+          <a href="mailto:31520241154536@stu.xmu.edu.cn"><span class="en">Email</span><span class="zh">邮箱</span></a>
+          <a href="https://scholar.google.com/citations?user=dXhHWTsAAAAJ"><span class="en">Google Scholar</span><span class="zh">谷歌学术</span></a>
+          <a href="https://github.com/yudaohai666">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2><span class="en">About</span><span class="zh">简介</span></h2>
+      <p class="en">I am a first-year graduate student at Xiamen University, working on efficient AI. My research focuses on large language models for long-text processing and on multimodal large models, in particular how to make long-context training and inference cheaper.</p>
+      <p class="zh">我是厦门大学研究生一年级学生，研究方向为高效人工智能，主要关注面向长文本处理的大语言模型与多模态大模型，尤其是如何降低长上下文训练与推理的成本。</p>
+      <p class="en">I am fortunate to be advised by <a href="https://mac.xmu.edu.cn/rrji/">Prof. Rongrong Ji</a> at the MAC Lab, and co-advised by Asst. Prof. Zhanpeng Zeng.</p>
+      <p class="zh">我很荣幸师从 MAC 实验室的<a href="https://mac.xmu.edu.cn/rrji/">纪荣嵘教授</a>，并由曾展鹏助理教授联合指导。</p>
+    </section>
+
+    <section id="publications">
+      <h2><span class="en">Publications</span><span class="zh">论文</span></h2>
+      <ul class="pubs">
+        <li>
+          <span class="title">Training-Free Hashing-Based Attention via Binary Principal Components</span>
+          <span class="authors"><b>Daohai Yu</b>, Zhanpeng Zeng, Keyu Chen, Wenhao Li, Zhifeng Shen, Luxi Lin, Ruizhi Qiao, Xing Sun, Rongrong Ji</span>
+          <div class="meta">
+            <span class="venue">ICML 2026</span>
+            <a href="https://arxiv.org/abs/2608.04405">arXiv</a>
+          </div>
+        </li>
+        <li>
+          <span class="title">Out of the Memory Barrier: A Highly Memory Efficient Training System for LLMs with Million-Token Contexts</span>
+          <span class="authors">Wenhao Li, <b>Daohai Yu</b>, Gen Luo, Yuxin Zhang, Fei Chao, Rongrong Ji, et al.</span>
+          <div class="meta">
+            <span class="venue">ICLR 2026</span>
+            <a href="https://arxiv.org/abs/2602.02108">arXiv</a>
+            <a href="https://openreview.net/forum?id=dSa3ImCQr7">OpenReview</a>
+          </div>
+        </li>
+        <li>
+          <span class="title">Training Long-Context LLMs Efficiently via Chunk-wise Optimization</span>
+          <span class="authors">Wenhao Li, Yuxin Zhang, Gen Luo, <b>Daohai Yu</b>, Rongrong Ji</span>
+          <div class="meta">
+            <span class="venue">Findings of ACL 2025</span>
+            <a href="https://arxiv.org/abs/2505.16710">arXiv</a>
+          </div>
+        </li>
+        <li>
+          <span class="title">ASPD: Unlocking Adaptive Serial-Parallel Decoding by Exploring Intrinsic Parallelism in LLMs</span>
+          <span class="authors">Keyu Chen, Zhifeng Shen, <b>Daohai Yu</b>, Haoqian Wu, Wei Wen, Jianfeng He, Ruizhi Qiao, Xing Sun</span>
+          <div class="meta">
+            <span class="venue plain">arXiv 2025</span>
+            <a href="https://arxiv.org/abs/2508.08895">arXiv</a>
+          </div>
+        </li>
+        <li>
+          <span class="title">Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models</span>
+          <span class="authors">Junru Lu, Jiarui Qin, Lingfeng Qiao, Yinghui Li, Xinyi Dai, Bo Ke, Jianfeng He, Ruizhi Qiao, Di Yin, Xing Sun, Yunsheng Wu, et al. (incl. <b>Daohai Yu</b>)</span>
+          <div class="meta">
+            <span class="venue plain">arXiv 2025</span>
+            <a href="https://arxiv.org/abs/2512.24618">arXiv</a>
+          </div>
+        </li>
+      </ul>
+      <p style="margin-top:.5rem"><a href="https://scholar.google.com/citations?user=dXhHWTsAAAAJ"><span class="en">Full list on Google Scholar &rarr;</span><span class="zh">完整列表见谷歌学术 &rarr;</span></a></p>
+    </section>
+
+    <section id="contact">
+      <h2><span class="en">Contact</span><span class="zh">联系方式</span></h2>
+      <p><span class="en">Email:</span><span class="zh">邮箱：</span> <a href="mailto:31520241154536@stu.xmu.edu.cn">31520241154536@stu.xmu.edu.cn</a><br>
+      <span class="en">School of Information Science and Technology, Xiamen University, Xiamen, China</span><span class="zh">中国厦门，厦门大学信息科学与技术学院</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">&copy; <span id="year">2026</span> Daohai Yu</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
